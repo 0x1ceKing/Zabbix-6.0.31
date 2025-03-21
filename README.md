@@ -83,3 +83,5 @@ For additional details, including answers to common questions about the AGPLv3, 
 
 Zabbix is Open Source Software, however, if you use Zabbix in a commercial context we kindly ask you to support the development of Zabbix by purchasing some level of technical support.
 All previous Zabbix software versions up to 6.4 are released under the GNU General Public License version 2 (GPLv2). The formal terms of the GPLv2 and AGPLv3 can be found at http://www.fsf.org/licenses/.
+## Docker Build Command
+```docker compose -f .\docker-compose_v3_ubuntu_mysql_latest.yaml up --build```
